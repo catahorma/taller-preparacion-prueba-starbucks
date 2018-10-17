@@ -16,6 +16,13 @@ font-family: 'Roboto', sans-serif;
   height: 20%
 }
 
+.logo2 img{
+  height: 4%;
+  width: 4%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
 
 .container h1{
 margin-bottom: 3%;
@@ -33,7 +40,6 @@ padding: 0;
 
 
 .navbar{
-
 	position: fixed;
 	width: 100%;
 	background-color: #f2f2f2;
@@ -68,6 +74,22 @@ margin-bottom: 3%;
 background-image: url("../img/banner1.jpg");
 width: 100%;
 background-size: cover;
+margin-bottom: 1%;
+
+}
+
+.foto2{
+background-image: url("../img/stars2.png");
+width: 100%;
+background-size: cover;
+margin-bottom: 1%;
+
+}
+
+.foto3{
+background-image: url("../img/beans.png");
+width: 100%;
+background-size: cover;
 
 }
 	
@@ -79,6 +101,7 @@ text-align: center;
 border-radius: 25px;
 padding-bottom: 50px;
 padding-top: 50px;
+margin: 11% 16% 4% 27%;
 }
 
 .btn {
@@ -89,9 +112,36 @@ padding-top: 50px;
     padding: 5px 30px;
 }
 
-.fa-star {
+.btn a{
+  color:pink;
+}
+
+
+
+[class*="fa-"] {
 font-size: 30px;
 margin-bottom: 10px;
-}	
+}
+
+.marginright{
+	margin: 11% 5% 4% 52%;
+}
+
+footer{
+
+	width: 100%;
+	background-color: #f2f2f2;
+	border-style: none;
+	padding: 10px 0 10px 10%;
+	padding-right: 9%;
+	border-bottom: 10px solid black;
+	bottom: 0;
+	top: 0;
+	text-align: center;
+}
+footer ul{
+	       list-style:none;
+
+}
 
 </style>
